@@ -1,0 +1,6 @@
+framework module Pods_UploadGoodsRxSwift {
+  umbrella header "Pods-UploadGoodsRxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
