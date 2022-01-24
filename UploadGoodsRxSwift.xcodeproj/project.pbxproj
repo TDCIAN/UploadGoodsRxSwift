@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		177E07CD8D3DA76F883EDC2E /* Pods_UploadGoodsRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F1056E4A528CE9E33515 /* Pods_UploadGoodsRxSwift.framework */; };
 		1E1A525E279F5712001D9971 /* PriceTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A525D279F5712001D9971 /* PriceTextFieldCell.swift */; };
+		1E1A5262279F5A91001D9971 /* DetailWriteFormCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A5261279F5A91001D9971 /* DetailWriteFormCellViewModel.swift */; };
+		1E1A5264279F5A9D001D9971 /* DetailWriteFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1A5263279F5A9D001D9971 /* DetailWriteFormCell.swift */; };
 		1E34CE5F279E1E3F0031B804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34CE5E279E1E3F0031B804 /* AppDelegate.swift */; };
 		1E34CE61279E1E3F0031B804 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34CE60279E1E3F0031B804 /* SceneDelegate.swift */; };
 		1E34CE68279E1E400031B804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E34CE67279E1E400031B804 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		1E1A525D279F5712001D9971 /* PriceTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCell.swift; sourceTree = "<group>"; };
+		1E1A5261279F5A91001D9971 /* DetailWriteFormCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCellViewModel.swift; sourceTree = "<group>"; };
+		1E1A5263279F5A9D001D9971 /* DetailWriteFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCell.swift; sourceTree = "<group>"; };
 		1E34CE5B279E1E3F0031B804 /* UploadGoodsRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadGoodsRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E34CE5E279E1E3F0031B804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E34CE60279E1E3F0031B804 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1A525F279F59D3001D9971 /* PriceTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E651187279EF39E00B059EA /* PriceTextFieldCellViewModel.swift */,
+				1E1A525D279F5712001D9971 /* PriceTextFieldCell.swift */,
+			);
+			path = PriceTextFieldCell;
+			sourceTree = "<group>";
+		};
+		1E1A5260279F5A6D001D9971 /* DetailWriteFormCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E1A5263279F5A9D001D9971 /* DetailWriteFormCell.swift */,
+				1E1A5261279F5A91001D9971 /* DetailWriteFormCellViewModel.swift */,
+			);
+			path = DetailWriteFormCell;
+			sourceTree = "<group>";
+		};
 		1E34CE52279E1E3F0031B804 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +117,8 @@
 				1E34CE74279E20180031B804 /* MainViewModel.swift */,
 				1E34CE79279E22CD0031B804 /* TitleTextFieldCell */,
 				1E651184279EF36C00B059EA /* CategoryViewController */,
-				1E651187279EF39E00B059EA /* PriceTextFieldCellViewModel.swift */,
-				1E1A525D279F5712001D9971 /* PriceTextFieldCell.swift */,
+				1E1A525F279F59D3001D9971 /* PriceTextFieldCell */,
+				1E1A5260279F5A6D001D9971 /* DetailWriteFormCell */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -275,8 +297,10 @@
 				1E1A525E279F5712001D9971 /* PriceTextFieldCell.swift in Sources */,
 				1E651181279EEF0100B059EA /* CategoryViewModel.swift in Sources */,
 				1E34CE78279E22B90031B804 /* TitleTextFieldCell.swift in Sources */,
+				1E1A5264279F5A9D001D9971 /* DetailWriteFormCell.swift in Sources */,
 				1E34CE75279E20180031B804 /* MainViewModel.swift in Sources */,
 				1E65117F279EEED600B059EA /* Category.swift in Sources */,
+				1E1A5262279F5A91001D9971 /* DetailWriteFormCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
